@@ -168,8 +168,13 @@ body {
 /*HERO*/
 .hero {
     text-align: center;
+    height: 600px;
     padding: 200px 0px;
-    background-color: #2F303A;;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2F303A;
+    
 }
 .hero-titel {
     font-weight: 900;
