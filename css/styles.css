@@ -148,7 +148,10 @@ body {
     margin-left: auto;
 }
 .conneсtion-nav-link {
+    display: flex;
     
+    align-items: center;
+    justify-content: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -156,9 +159,14 @@ body {
         
     color: var(--second-color);
 }
+.connection-nav-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
 .conneсtion-nav-link:hover,
 .conneсtion-nav-link:focus {
-    text-decoration: none;
+    text-decoration: underline;
+    color: var(--accent-color);
 }
 .conneсtion-nav-item:not(:last-child) {
     margin-right: 50px;
