@@ -149,7 +149,7 @@ body {
 }
 .conneсtion-nav-link {
     display: flex;
-    
+    gap: 10px;
     align-items: center;
     justify-content: center;
     font-weight: 500;
@@ -161,7 +161,7 @@ body {
 }
 .connection-nav-icon {
     fill: currentColor;
-    margin-right: 10px;
+    
 }
 .conneсtion-nav-link:hover,
 .conneсtion-nav-link:focus {
@@ -306,7 +306,21 @@ body {
 
     min-width: 76px;
     text-align: center;
-    
+}
+.team-soc {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: tomato;
 }
 /* Постійні клієнти */
 .client-titel {
