@@ -320,7 +320,16 @@ body {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: tomato;
+    color: #AFB1B8;
+    
+}
+.soc-link:hover,
+.soc-link:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+.team-soc-icon {
+    fill: currentColor;
 }
 /* Постійні клієнти */
 .client-titel {
