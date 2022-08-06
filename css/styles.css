@@ -377,9 +377,9 @@ body {
 /*footer*/
 
 .footer {
-    width: 1600px;
+    
     margin: 0 auto;
-    padding: 60px 215px;
+    padding: 60px 0px;
     
     background-color: var(--footer-background-color);
 }
@@ -546,9 +546,9 @@ body {
 }
 .example-link {
     display: block;
-    max-width: 370px;
+    
     background-color: #ffffff;
-    border: 1px solid #EEEEEE;
+    
 }
 .example-link:hover,
 .example-link:focus {
